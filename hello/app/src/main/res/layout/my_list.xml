@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/textView4"
+        android:text="grade                  "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/textView5"
+        android:text="name                    "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/textView6"
+        android:text="number"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+    <ListView
+
+        android:layout_width="89dp"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/l_view1"
+
+        android:layout_gravity="center_vertical"
+        android:maxWidth = "50px"
+        android:layout_weight="0.21" />
+    <ListView
+
+        android:layout_width="115dp"
+
+        android:layout_height="wrap_content"
+        android:maxWidth = "50px"
+        android:id="@+id/l_view2"
+
+        android:layout_gravity="center_vertical"
+
+        />
+    <ListView
+
+        android:layout_width="75dp"
+        android:maxWidth = "50px"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/l_view3"
+
+        android:layout_gravity="center_vertical"
+
+        android:layout_weight="0.10" />
+
+    </LinearLayout>
+</LinearLayout>
